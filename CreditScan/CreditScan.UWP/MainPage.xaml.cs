@@ -23,5 +23,6 @@ namespace CreditScan.UWP
 
             LoadApplication(new CreditScan.App());
         }
+        
     }
 }

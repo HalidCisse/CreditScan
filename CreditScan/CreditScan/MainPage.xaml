@@ -4,8 +4,13 @@
              xmlns:local="clr-namespace:CreditScan"
              x:Class="CreditScan.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
 
+        <Image x:Name="PhotoImage" />
+        <Button x:Name="CameraButton" Text="Take Photo" Grid.Row="1" />
+    </Grid>
 </ContentPage>
