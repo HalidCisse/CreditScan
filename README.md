@@ -1,2 +1,2 @@
 # CreditScan
-Another side project.
+Another xamarin based side project.
